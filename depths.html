@@ -41,16 +41,8 @@
 
     <hr id="dividerTop" class="featurette-divider" visibility="d-none">
 
-    <div align="center" class="starting image" class="col-sm col12">
-        <img id="carImg3" src="webAssets/backgroundS.png" alt="Title">
-    </div>
-
-    <hr id="divider" class="featurette-divider">
-    <div class=col-12>
-        <h1 id="presentationGames" align="center" class="featurette-heading">Our games</h2>
-      </div>
     <div class="container marketing" class="col-sm col-12">
-      <div id="carouselDepths" class="carousel slide" data-interval="2500" data-ride="carousel">
+      <div id="carouselDepths" class="carousel slide" data-interval="false" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselDepths" data-slide-to="0" class="active"></li>
           <li data-target="#carouselDepths" data-slide-to="1"></li>
@@ -59,6 +51,16 @@
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
             <img id="carImg1" src="webAssets/background5.png" alt="First slide">
+            <a id="NewGame" class="btn btn-outline-secondary" href="DOM.html">New Game</a>
+            <a id="btnMusic" class="btn btn-secondary">Play Soundtrack</a>
+            <div id="soundButtons" class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="btnON" autocomplete="off" checked> Music ON
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="btnOFF" autocomplete="off"> Music OFF
+              </label>
+            </div>
             <div class="carousel-caption d-none d-md-block">
               <h5 id="gameTitle">Depths of Magic</h5>
               <p id="gameDesc">Face your fears and unleash the power of magic in this dark roguelike</p>
@@ -96,39 +98,100 @@
 
       <hr id="divider" class="featurette-divider">
 
+      <!--es-->
+      <div id="tut4Div" class="row featurette">
+        <div class="col-md-7">
+          <h2 id="tutorial4" class="featurette-heading">Tutorial 4:</h2>
+          <p id="description4" class="lead">Detailed description</p>
+        </div>
+        <div class="col-md-5">
+          <img id="tutorialImg4" src="webAssets/tut4.png" class="featurette-image img-fluid mx-auto"
+            data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr id="divider1" class="featurette-divider">
+
+
+      <div id="tut1Div" class="row featurette">
+        <div class="col-md-7">
+          <h2 id="tutorial1" class="featurette-heading">Tutorial 1:</h2>
+          <p id="description1" class="lead">Detailed description</p>
+        </div>
+        <div class="col-md-5">
+          <img id="tutorialImg1" src="webAssets/tut1.png" class="featurette-image img-fluid mx-auto"
+            data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr id="divider2" class="featurette-divider">
+
+      <div id="tut2Div" class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 id="tutorial2" class="featurette-heading">Tutorial 2:</h2>
+          <p id="description2" class="lead">Detailed description</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img id="tutorialImg2" src="webAssets/tut2.png" class="featurette-image img-fluid mx-auto"
+            data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr id="divider3" class="featurette-divider">
+
+      <div id="tut3Div" class="row featurette">
+        <div class="col-md-7">
+          <h2 id="tutorial3" class="featurette-heading">Tutorial 3:</h2>
+          <p id="description3" class="lead">Detailed description</p>
+        </div>
+        <div class="col-md-5">
+          <img id="tutorialImg3" src="webAssets/tut3.png" class="featurette-image img-fluid mx-auto"
+            data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr id="divider4" class="featurette-divider">
+
+      <!--Scores-->
+      <div id="scoreDiv" class="row featurette">
+        <div class="col-md-11" align="center">
+          <h2 id="bestScores" class="featurette-heading">Your 10 Best Scores</h2>
+          <p id="score1" class="lead">TOP1</p>
+          <p id="score2" class="lead">TOP2</p>
+          <p id="score3" class="lead">TOP3</p>
+          <p id="score4" class="lead">TOP4</p>
+          <p id="score5" class="lead">TOP5</p>
+          <p id="score6" class="lead">TOP6</p>
+          <p id="score7" class="lead">TOP7</p>
+          <p id="score8" class="lead">TOP8</p>
+          <p id="score9" class="lead">TOP9</p>
+          <p id="score10" class="lead">TOP10</p>
+        </div>
+      </div>
+
+      <hr id="divider5" class="featurette-divider">
+
       <div class=col-md-7>
         <h1 id="presentation" class="featurette-heading">Get to know us!</h2>
       </div>
 
-
       <!-- Five columns of text below the carousel -->
       <div id="roles" class="row">
-        <!--Juan-->
         <div class="col-md-6">
           <img class="rounded-circle" src="webAssets/team1.png" alt="Generic placeholder image" width="140"
             height="140">
           <h2 id="name1">Juan</h2>
-
-        </div>
-        <div class="col-md-6">
-          <p id="Desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-          <p><a class="btn btn-secondary" href="https://github.com/JuanAM8" role="button">View Git &raquo;</a></p>          
-        </div>
-
-        <!--Mario-->
-        <div class="col-md-6">
-            <p id="Desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            <p><a class="btn btn-secondary" href="https://github.com/JuanAM8" role="button">View Git &raquo;</a></p>          
-          </div>
+          <p id="role1">Game designer, project manager and community manager.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/JuanAM8" role="button">View Git &raquo;</a></p>
+        </div><!-- /.col-lg-6 -->
         <div class="col-md-6">
           <img class="rounded-circle" src="webAssets/team2.png" alt="Generic placeholder image" width="140"
             height="140">
           <h2 id="name2">Mario</h2>
           <p id="role2">Artist and animator.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/AcEiOfficial" role="button">View Git &raquo;</a>
           </p>
-        </div>
-
-        <!--Javi-->
+        </div><!-- /.col-lg-6 -->
         <div class="col-md-6">
           <img class="rounded-circle" src="webAssets/team3.png" alt="Generic placeholder image" width="140"
             height="140">
@@ -136,36 +199,23 @@
           <p id="role3">Programmer, musician and game designer.</p>
           <p><a class="btn btn-secondary" href="https://github.com/AlbaranezJavier" role="button">View Git &raquo;</a>
           </p>
-        </div>
-        <div class="col-md-6">
-            <p id="Desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-          </div>
-
-        <!--Laura-->
-        <div class="col-md-6">
-            <p id="Desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            <p><a class="btn btn-secondary" href="https://github.com/JuanAM8" role="button">View Git &raquo;</a></p>          
-          </div>
+        </div><!-- /.col-lg-6 -->
         <div class="col-md-6">
           <img class="rounded-circle" src="webAssets/team4.png" alt="Generic placeholder image" width="140"
             height="140">
           <h2 id="name4">Laura</h2>
           <p id="role4">Artist and animator.</p>
-        </div>
-
-        <!--Cesar-->
-        <div class="col-md-6">
+          <p><a class="btn btn-secondary" href="https://github.com/LauraLuna96" role="button">View Git &raquo;</a></p>
+        </div><!-- /.col-lg-6 -->
+        <div class="col-md-12">
           <img class="rounded-circle" src="webAssets/team5.png" alt="Generic placeholder image" width="140"
             height="140">
           <h2 id="name5">César</h2>
           <p id="role5">Programmer and sound designer.</p>
           <p><a class="btn btn-secondary" href="https://github.com/Mixto83" role="button">View Git &raquo;</a></p>
-        </div>
-        <div class="col-md-6">
-            <p id="Desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-        </div>
-      </div>
-    </div>
+        </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
+    </div><!-- /.container -->
 
     <footer class="container py-5">
 
