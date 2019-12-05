@@ -13,6 +13,7 @@
   transition: 1.5s ease-in-out left;
 }
 
+
 .site-header {
   background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
