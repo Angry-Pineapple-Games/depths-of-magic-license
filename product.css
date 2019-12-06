@@ -24,6 +24,10 @@ ul li{
   padding: 0 1rem;
 }
 
+.featurette-divider{
+  background: #ffffff;
+} 
+
 .section {
   display: flex;
   justify-content: center;
@@ -34,24 +38,25 @@ ul li{
   padding: 3rem;
 }
 
+
 #section-1 {
-  background: #037ED2;
+  background: #36acdc;
 }
 
 #section-2 {
-  background: #0CA2BB;
+  background: #2b9cca;
 }
 
 #section-3 {
-  background: #037ED2;
+  background: #1d8ebd;
 }
 
 #section-4 {
-  background: #037ED2;
+  background: #1180ae;
 }
 
 #section-5 {
-  background: #0CA2BB;
+  background: #05729e;
 }
 
 .transition {
@@ -59,19 +64,19 @@ ul li{
 }
 
 .transition-1 {
-  background: linear-gradient(#037ed2, #0ca2bb);
+  background: linear-gradient(#36acdc, #2b9cca);
 }
 
 .transition-2 {
-  background: linear-gradient(#0ca2bb, #037ed2);
+  background: linear-gradient(#2b9cca, #1d8ebd);
 }
 
 .transition-3 {
-  background: linear-gradient(#037ed2, #0ca2bb);
+  background: linear-gradient(#1d8ebd, #1180ae);
 }
 
 .transition-4 {
-  background: linear-gradient(#0ca2bb, #037ed2);
+  background: linear-gradient(#1180ae, #05729e);
 }
 
 
