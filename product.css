@@ -2,6 +2,80 @@
   max-width: 960px;
 }
 
+/*Esto pero no con el body, con los apartados que toquen
+body{
+  text-align: center;
+  color: white;
+}*/
+
+h1{
+  margin: 1;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/*Cambiar esto para que no afecte abajo*/
+ul li{
+  padding: 0 1rem;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-inner {
+  padding: 3rem;
+}
+
+#section-1 {
+  background: #037ED2;
+}
+
+#section-2 {
+  background: #0CA2BB;
+}
+
+#section-3 {
+  background: #037ED2;
+}
+
+#section-4 {
+  background: #037ED2;
+}
+
+#section-5 {
+  background: #0CA2BB;
+}
+
+.transition {
+  height: 20vh;
+}
+
+.transition-1 {
+  background: linear-gradient(#037ed2, #0ca2bb);
+}
+
+.transition-2 {
+  background: linear-gradient(#0ca2bb, #037ed2);
+}
+
+.transition-3 {
+  background: linear-gradient(#037ed2, #0ca2bb);
+}
+
+.transition-4 {
+  background: linear-gradient(#0ca2bb, #037ed2);
+}
+
+
+
 /*
  * Custom translucent site header
  */
@@ -12,6 +86,8 @@
   -o-transition: 1.5s ease-in-out left;
   transition: 1.5s ease-in-out left;
 }
+
+
 
 
 .site-header {
