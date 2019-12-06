@@ -16,9 +16,9 @@
 </head>
 
 <body>
-  <div class="p-3 mb-2 bg-info text-light">
+  <div class="p-3 mb-2 bg-primary text-light">
     <!--Header: Change language buttons + other links-->
-    <nav class="site-header sticky-top py-1 bg-primary">
+    <nav id="navigationBar" class="class=navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
           <label class="btn btn-secondary active bg-info">
@@ -28,7 +28,19 @@
             <input type="radio" name="options" id="btnSpanish" autocomplete="off"> Spanish
           </label>
         </div>
-        <a id="btnGDD" class="py-2 d-none d-md-inline-block text-light" href="https://angry-pineapple-games.github.io/">GDD</a>
+          <ul>
+                <li><a href="#section-1" class="py-2 d-none d-md-inline-block text-light">Quiénes somos</a></li>
+                <li><a href="#section-2" class="py-2 d-none d-md-inline-block text-light">Nuestros juegos</a></li>
+                <li><a href="#section-3" class="py-2 d-none d-md-inline-block text-light">Conoce al equipo</a></li>
+                <li><a href="#section-4" class="py-2 d-none d-md-inline-block text-light">Contacto</a></li>
+                <li><a href="#section-5" class="py-2 d-none d-md-inline-block text-light">Referencias</a></li></li>
+            </ul>
+        
+    </nav>
+
+    <!--TODO Rebuild later
+      <div>
+              <a id="btnGDD" class="py-2 d-none d-md-inline-block text-light" href="https://angry-pineapple-games.github.io/">GDD</a>
         <a id="btnTwitter" class="py-2 d-none d-md-inline-block text-light" href="https://twitter.com/AngryPineappleG">Twitter</a>
         <a id="btnYoutube" class="py-2 d-none d-md-inline-block text-light"
           href="https://www.youtube.com/channel/UC-beom-Ex559oRHYl8knUAQ">Youtube</a>
@@ -38,38 +50,28 @@
         <a id="btnGithub" class="py-2 d-none d-md-inline-block text-light"
           href="https://github.com/Angry-Pineapple-Games/">Github</a>
       </div>
-    </nav>
 
-    <!--Top divider: Maybe delete later-->
-    <hr id="dividerTop" class="featurette-divider" visibility="d-none">
-
+    -->
     <!--Sections links-->
-    <ul>
-      <li><a href="#section-1">Quiénes somos</a></li>
-      <li><a href="#section-2">Nuestros juegos</a></li>
-      <li><a href="#section-3">Conoce al equipo</a></li>
-      <li><a href="#section-4">Contacto</a></li>
-    </ul>
+    
 
     <!--First section: The company-->
     <section class="section" id="section-1">
-      <div class="section-inner">
-          <h1>Quiénes somos</h1>
+      <div class="section-inner col12">
+          <h1 align="center">Quiénes somos</h1>
           <div class="starting image" class="col-sm col12">
             <img id="carImg3" src="webAssets/logo.png" alt="Title">
       </div>
     </section>
 
-    <!--Section divider-->
-    <hr id="divider" class="featurette-divider">
     <!--Section transition-->
     <section class="transition transition-1"></section>
     <!--Second section: Our games-->
     <section class="section" id="section-2">
       <div class="section-inner">
-          <h1 id="presentationGames" class="featurette-heading">Our games</h2>
+          <h1 id="presentationGames" class="featurette-heading col12" align="center">Our games</h2>
             <!--Carousel for our games-->
-            <div id="carouselDepths" class="carousel slide"  data-interval="2500" data-ride="carousel">
+            <div id="carouselDepths" class="carousel slide col12"  data-interval="2500" data-ride="carousel">
                 <!--Carousel parts-->
                 <ol class="carousel-indicators">
                   <li data-target="#carouselDepths" data-slide-to="0" class="active"></li>
@@ -122,21 +124,23 @@
         </div>
     </section>
 
-    <!--Section Divider-->
-    <hr id="divider" class="featurette-divider">
     <!--Section Transition-->
     <section class="transition transition-2"></section>
-    <!--Third Section: Get to Know Us!-->
     <section class="section" id="section-3">
-        <h1 id="presentation" class="featurette-heading">Get to know us!</h2>
-          <div id="roles" class="row">
+        <div class="row col12">
+            <h1 id="presentation" class="featurette-heading" align="center">Get to know us!</h2>
+        </div>
+    </section>
+    <!--Third Section: Get to Know Us!-->
+    <section class="section" id="section-3-1">
+        <div id="roles" class="row">
               <!--Juan-->
-              <div class="col-md-6">
-                <img class="rounded-circle" src="webAssets/team1.png" alt="Generic placeholder image" width="280"
+              <div class="col-sm-12 col-md-6">
+                <img class="rounded-circle"  src="webAssets/team1.png" alt="Generic placeholder image" width="280"
                   height="280">
                 <h2 id="name1">Juan</h2>
               </div>
-              <div class="col-md-6">
+              <div class="col-sm-12 col-md-6">
                 <p id="JuanDesc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 <p><a class="btn btn-secondary" href="https://github.com/JuanAM8" role="button">View Git &raquo;</a></p>          
               </div>
@@ -186,12 +190,9 @@
               <div class="col-md-6">
                   <p id="CesarDesc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
               </div>
-            </div>
-          
+          </div>        
     </section>
 
-    <!--Section Divider-->
-    <hr id="divider" class="featurette-divider">
     <!--Section Transition-->
     <section class="transition transition-3"></section>
     <!--Fourth Section: Contact-->
@@ -246,8 +247,6 @@
             </div>
     </section>
 
-    <!--Section Divider-->
-    <hr id="divider" class="featurette-divider">
     <!--Section Transition-->
     <section class="transition transition-4"></section>
     <!--Fifth Section: References-->
@@ -349,7 +348,7 @@
     </section>
     <!--Footer-->
       <footer class="container py-5">
-        <p class="float-right"><a id="backTop" href="#">Back to top</a></p>
+        <p class="float-right"><a class="text-light" id="backTop" href="#">Back to top</a></p>
       </footer>
     </footer>
   </div>

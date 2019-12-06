@@ -131,7 +131,7 @@ function detectmob() {
      //Reference: https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
 }
 
-// Everything but smooth Scrolling
+//Smooth Scrolling - Reference: https://codepen.io/brianhaferkamp/details/xqyeQP
 $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -144,5 +144,4 @@ $('a[href*="#"]:not([href="#"])').click(function() {
       }
     }
   });
-    //Reference: https://codepen.io/brianhaferkamp/details/xqyeQP
 
