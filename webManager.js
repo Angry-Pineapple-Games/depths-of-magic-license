@@ -1,11 +1,23 @@
 var myWebContent = { 
     
+    //Sections
+
     //Titles
     title1ENG: "Our games",
     title1ESP: "Nuestros juegos",
     title2ENG: "Get to know the team",
     title2ESP: "Conoce al equipo",
+    title3ENG: "Who are we?",
+    title3ESP: "¿Quiénes somos?",
+    title4ENG: "Contact",
+    title4ESP: "Contacto",
+    title5ENG: "References",
+    title5ESP: "Referencias",
+
     //About us
+    descCompanyENG: "Gimme that eo",
+    descCompanyESP: "Pasame la hooka!",
+
     descJuanENG: "This is Juan's description",
     descJuanESP: "Descripcion de Juan",
 
@@ -130,3 +142,18 @@ function detectmob() {
      }
      //Reference: https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
 }
+
+//Smooth Scrolling - Reference: https://codepen.io/brianhaferkamp/details/xqyeQP
+$('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: (target.offset().top - 60)
+        }, 1000);
+        return false;
+      }
+    }
+  });
+

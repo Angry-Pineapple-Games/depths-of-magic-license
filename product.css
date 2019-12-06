@@ -2,6 +2,92 @@
   max-width: 960px;
 }
 
+h1{
+  margin: 1;
+}
+
+#mainLinks{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#mainLinks li{
+  padding: 0 1rem;
+}
+
+.featurette-divider{
+  background: #ffffff;
+} 
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-circle{
+  left: 40px;
+}
+
+.section-inner {
+  padding: 3rem;
+}
+
+#section-0 {
+  background: #36acdc;
+  margin-top: 25px;
+}
+
+#section-1 {
+  background: #36acdc;
+}
+
+#section-1-1 {
+  background: #36acdc;
+}
+
+#section-2 {
+  background: #2b9cca;
+}
+
+#section-3 {
+  background: #1d8ebd;
+}
+
+#section-3-1 {
+  background: #1d8ebd;
+}
+
+#section-4 {
+  background: #1180ae;
+}
+
+#section-5 {
+  background: #05729e;
+}
+
+.transition {
+  height: 20vh;
+}
+
+.transition-1 {
+  background: linear-gradient(#36acdc, #2b9cca);
+}
+
+.transition-2 {
+  background: linear-gradient(#2b9cca, #1d8ebd);
+}
+
+.transition-3 {
+  background: linear-gradient(#1d8ebd, #1180ae);
+}
+
+.transition-4 {
+  background: linear-gradient(#1180ae, #05729e);
+}
+
 /*
  * Custom translucent site header
  */
@@ -52,59 +138,7 @@
 }
 
 #roles {
-  margin-left: 30px;
-}
-
-#gddDiv {
-  display: none;
-}
-
-#NewGame {
-  position: absolute;
-  top: 32%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-  text-align: center;
-}
-
-#soundButtons {
-  position: absolute;
-  top: 54%;
-  left: 50%;
-  transform: translate(-50%, +50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 5px;
-  padding: 5px 8px;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-  text-align: center;
-}
-
-#btnMusic {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-  text-align: center;
+  margin-left: 50px;
 }
 
 .flex-equal > * {
