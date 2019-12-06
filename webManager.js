@@ -18,17 +18,22 @@ var myWebContent = {
     descCompanyENG: "Gimme that eo",
     descCompanyESP: "Pasame la hooka!",
 
-    descJuanENG: "This is Juan's description",
-    descJuanESP: "Descripcion de Juan",
-
+    descJuanENG: "Project manager, narrative and game designer, and community manager. My main goal with videogame development is to give the user new experiences, and " +
+    "also being able to tell of all these stories that are in my mind. I'm also very interested in gamification and the videogames' potential for education. " +
+    "While I'm a designer, I also work as programmer in some languages. <br/>Favorite videogames: Chrono Trigger, The Secret of Monkey Island and Castlevania Rondo of Blood.",
+    descJuanESP: "Gestor de proyectos, diseñador de juego y narrativo, y community manager. Mi interés principal a la hora de crear videojuegos es " +
+     "ofrecer experiencias únicas al usuario, y sobre todo de contar todas esas historias que pueblan mi mente y que espero que algún día puedan llegar " +
+     "a más gente. También tengo un gran interés en la gamificación y el potencial de los videojuegos en la rama educacional. Pese a ser diseñador, " +
+     "también me desempeño en labores de programación en varios lenguajes. <br/>Videojuegos favoritos: Chrono Trigger, The Secret of Monkey Island y Castlevania Rondo of Blood.",
+     
     descLauraENG: "This is Laura's description",
     descLauraESP: "Descripcion de Laura",
 
     descMarioENG: "This is Mario description",
     descMarioESP: "Descripcion de Mario",
 
-    descJaviESP: "Descripcion de Javi",
-    descJaviENG: "This is Javi description",
+    descJaviESP: "En Depths of Magic, programador del engine y del flujo de juego. En My Jumping Knight, programador del servidor y las comunicaciones del cliente con el servidor, además de apoyo en tareas del cliente como el cambio de idioma, almacenamiento de datos y el flujo de pantallas. Centrado en programación de inteligencia artificial. Cómodo con lenguajes como Python, C#, Java y JavaScript. En constante evolución y mejora tanto en estos lenguajes como otros. <br/>Videojuegos favoritos: The Last of Us, Gears of War y Total War.",
+    descJaviENG: "Engine and game flow programmer of Depths of Magic. Server programmer of My Jumping Knight, while also doing other tasks like language switch and data storage in the game. Focused on artificial inteligence programming. I feel comfortable working in languages like Python, C#, Java and JavaScript. I keep improving my skills with these and other languages. <br/> Favorite videogames: The Last of Us, Gears of War and Total War.",
 
     descCesarESP: "Descripcion de Cesar",
     descCesarENG: "This is Cesar description",
