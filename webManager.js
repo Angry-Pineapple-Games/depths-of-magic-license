@@ -29,8 +29,9 @@ var myWebContent = {
     descLauraENG: "This is Laura's description",
     descLauraESP: "Descripcion de Laura",
 
-    descMarioENG: "This is Mario description",
-    descMarioESP: "Descripcion de Mario",
+    descMarioENG: "2D artist and animator. Focused on character design, environments, UI and props, mainly with cartoon style, but I also enjoy working with semi-realistic styles and pixel art. My main goal as a designer is to get an unique and defined style that makes the player feel the character's personality with just a single sight. I also like modeling and 2D & 3D animation.<br/>Favorite games: Monster Hunter, The Last of Us and Bloodborne.",
+    descMarioESP: "Artista 2D y animador. Centrado en el diseño de personajes, escenarios, IU y props, con un estilo principalmente cartoon, aunque también me gusta trabajar el semi-realismo y pixel art. Mi objetivo es que los diseños de los personajes tengan un estilo propio y definido, que transmitan al jugador su carácter y personalidad con un solo vistazo. Me gusta también el modelado y la animación 2D y 3D."
+    + " <br/>Videojuegos favoritos: Monster Hunter, Bloodborne y The Last of Us.",
 
     descJaviESP: "En Depths of Magic, programador del engine y del flujo de juego. En My Jumping Knight, programador del servidor y las comunicaciones del cliente con el servidor, además de apoyo en tareas del cliente como el cambio de idioma, almacenamiento de datos y el flujo de pantallas. Centrado en programación de inteligencia artificial. Cómodo con lenguajes como Python, C#, Java y JavaScript. En constante evolución y mejora tanto en estos lenguajes como otros. <br/>Videojuegos favoritos: The Last of Us, Gears of War y Total War.",
     descJaviENG: "Engine and game flow programmer of Depths of Magic. Server programmer of My Jumping Knight, while also doing other tasks like language switch and data storage in the game. Focused on artificial inteligence programming. I feel comfortable working in languages like Python, C#, Java and JavaScript. I keep improving my skills with these and other languages. <br/> Favorite videogames: The Last of Us, Gears of War and Total War.",

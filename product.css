@@ -28,7 +28,40 @@ h1{
 }
 
 .rounded-circle{
-  left: 40px;
+  margin-left: 40px;
+}
+
+#JuanImg{
+  margin-left: 300px;
+}
+#JaviImg{
+  margin-left: 300px;
+}
+#LauraImg{
+  margin-left: 300px;
+}
+#MarioImg{
+  margin-right: 300px;
+
+}
+#CesarImg{
+  margin-right: 300px;
+
+}
+
+.btn-secondary{
+  outline:none; 
+  border-style: none;
+}
+
+#btnMenu1{
+  border:round;
+  border-style:solid;
+}
+
+#btnMenu2{
+  border:round;
+  border-style:solid;
 }
 
 .section-inner {
