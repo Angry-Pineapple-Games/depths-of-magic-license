@@ -2,25 +2,18 @@
   max-width: 960px;
 }
 
-/*Esto pero no con el body, con los apartados que toquen
-body{
-  text-align: center;
-  color: white;
-}*/
-
 h1{
   margin: 1;
 }
 
-ul{
+#mainLinks{
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
 }
 
-/*Cambiar esto para que no afecte abajo*/
-ul li{
+#mainLinks li{
   padding: 0 1rem;
 }
 
@@ -42,8 +35,16 @@ ul li{
   padding: 3rem;
 }
 
+#section-0 {
+  background: #36acdc;
+  margin-top: 25px;
+}
 
 #section-1 {
+  background: #36acdc;
+}
+
+#section-1-1 {
   background: #36acdc;
 }
 
@@ -87,8 +88,6 @@ ul li{
   background: linear-gradient(#1180ae, #05729e);
 }
 
-
-
 /*
  * Custom translucent site header
  */
@@ -99,8 +98,6 @@ ul li{
   -o-transition: 1.5s ease-in-out left;
   transition: 1.5s ease-in-out left;
 }
-
-
 
 
 .site-header {
@@ -141,59 +138,7 @@ ul li{
 }
 
 #roles {
-  margin-left: 30px;
-}
-
-#gddDiv {
-  display: none;
-}
-
-#NewGame {
-  position: absolute;
-  top: 32%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-  text-align: center;
-}
-
-#soundButtons {
-  position: absolute;
-  top: 54%;
-  left: 50%;
-  transform: translate(-50%, +50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 5px;
-  padding: 5px 8px;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-  text-align: center;
-}
-
-#btnMusic {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-  text-align: center;
+  margin-left: 50px;
 }
 
 .flex-equal > * {
