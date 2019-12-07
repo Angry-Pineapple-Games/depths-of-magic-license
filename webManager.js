@@ -111,8 +111,8 @@ var ids = [
 
 
     ["gameDesc", "normal", "Face your fears and unleash the power of magic in this dark roguelike", "Enfrenta a tus miedos y desata el poder de la magia en este oscuro roguelike"],
-    ["gameTitle2", "normal", "Coming soon", "Próximamente"],
-    ["gameDesc2", "normal", "In the next weeks we'll show you our next project. Stay tuned!", "En las próximas semanas os mostraremos nuestro nuevo proyecto. ¡Permaneced al tanto!"],
+    ["gameTitle2", "normal", "My Jumping Knight", "My Jumping Knight"],
+    ["gameDesc2", "normal", "Compete with other players anywhere, anytime!", "Compite con otros jugadores en cualquier momento y en cualquier lugar"],
 ];
 
 /*Auxiliar functions*/
