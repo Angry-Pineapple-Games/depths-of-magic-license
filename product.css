@@ -13,6 +13,10 @@ h1{
   justify-content: center;
 }
 
+{
+  justify-context: center;
+}
+
 #mainLinks li{
   padding: 0 1rem;
 }
@@ -28,7 +32,40 @@ h1{
 }
 
 .rounded-circle{
-  left: 40px;
+  margin-left: 40px;
+}
+
+#JuanImg{
+  margin-left: 300px;
+}
+#JaviImg{
+  margin-left: 300px;
+}
+#CesarImg{
+  margin-left: 300px;
+}
+#MarioImg{
+  margin-right: 300px;
+
+}
+#LauraImg{
+  margin-right: 300px;
+
+}
+
+.btn-secondary{
+  outline:none; 
+  border-style: none;
+}
+
+#btnMenu1{
+  border:round;
+  border-style:solid;
+}
+
+#btnMenu2{
+  border:round;
+  border-style:solid;
 }
 
 .section-inner {
