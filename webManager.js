@@ -15,8 +15,13 @@ var myWebContent = {
     title5ESP: "Referencias",
 
     //About us
-    descCompanyENG: "Company's description",
-    descCompanyESP: "Descripcion de la empresa",
+    descCompanyENG: "Angry Pineapple Games starts its journey on september 16th of 2019, with five founder members: a game and narrative designer, a pure programmer, a flex programmer, a 2D artist and a 3D artist."+
+    "<br/>A month after its foundation, at october 20th, our first game finishes its development: Depths of Magic. And, after that, the team starts to work in the next game, which is available at december 7th: My Jumping Knight."+
+    "<br/>Focused on developing games for web, which can be played both in phones and computers, from Angry Pineapple Games we want to give  our public the most fun and enjoyment as possible, anywhere, anytime.",
+
+    descCompanyESP: "Angry Pineapple Games nace el 16 de septiembre de 2019 con la unión de cinco miembros que abarcan distintas ramas del desarrollo de videojuegos: un game y narrative designer, un programador puro, un programador mixto, un artista 2D y una artista 3D."+ 
+    "<br/>Un mes después de la fundación del estudio, el 20 de octubre, finaliza el desarrollo de nuestro primer juego para web: Depths of Magic. Y, tras ello, el equipo comienza inmediatamente a desarrollar su segundo juego, que ve la luz a 7 de diciembre: My Jumping Knight."+
+    "<br/>Enfocados en el desarrollo de juegos para web, que puedan ser jugados tanto en móviles como en ordenadores y tablets, Angry Pineapple Games busca que su público disfrute y se divierta en cualquier momento y en cualquier lugar.",
 
     descJuanENG: "Project manager, narrative and game designer, and community manager. My main goal with videogame development is to give the user new experiences, and " +
     "also being able to tell of all these stories that are in my mind. I also do pixel-art and I'm very interested in gamification and the videogames' potential for education. " +
@@ -90,6 +95,7 @@ var ids = [
     ["LauraDesc","normal",myWebContent.descLauraENG,myWebContent.descLauraESP],
     ["CesarDesc","normal",myWebContent.descCesarENG,myWebContent.descCesarESP],
     ["JavierDesc","normal",myWebContent.descJaviENG,myWebContent.descJaviESP],
+    ["CompanyDesc", "normal", myWebContent.descCompanyENG, myWebContent.descCompanyESP],
 
     ["code", "normal", "Code", "Código"],
     ["animation", "normal", "Animation", "Animación"],
